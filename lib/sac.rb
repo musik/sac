@@ -13,6 +13,14 @@ module Sac
         break
       end
     end
+    def companies
+      @links = list
+      @companies = []
+      @links.each do |id|
+        @companies << item(id)
+      end
+      @companies
+    end
     def list
       @links ||= begin
         response = Typhoeus::Request.get('http://cx.sac.net.cn/huiyuan/g/cn/cx/z.jsp?m_type=zqgs')  
