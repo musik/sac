@@ -8,7 +8,6 @@ module Sac
   class << self
     def run
       @links = list
-      pp @links.size
       @links.each do |id|
         pp item id
         break

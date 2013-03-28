@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'sac'
   s.version     = '0.0.1'
-  s.date        = '2013-3-29'
+  s.date        = '2013-03-29'
   s.summary     = "Sac"
   s.description = ""
   s.authors     = ["muzik"]
